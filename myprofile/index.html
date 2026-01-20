@@ -7,15 +7,37 @@
             color: #E0E0E0; 
             font-family: sans-serif;
             margin: 40px;
-            line-height: 1.6; /* Adds a bit of space between lines for better reading */
+            line-height: 1.6;
+            /* This centers all text and inline elements */
+            text-align: center; 
         }
-        /* Style for your links so they don't turn purple/blue */
+
+        /* Centers the image by treating it as a block */
+        img {
+            display: block;
+            margin: 20px auto; 
+        }
+
+        /* Centers the list and removes the bullet indentation */
+        ul {
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        /* Style for your links */
         a {
             color: #4CAF50;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+
+        /* Keeps the horizontal line clean */
+        hr {
+            border: 0;
+            border-top: 1px solid #333;
+            margin: 40px 0;
         }
     </style>
 </head>
@@ -42,7 +64,6 @@
     <div id="youtube-section">
         <h2>My YouTube Channel</h2>
         <p>Check out my content and devlogs here:</p>
-        <!-- Use a button or link since channel pages can't be embedded -->
         <p><a href="https://www.youtube.com/@duckiiboyy" target="_blank">Visit @duckiiboyy on YouTube</a></p>
     </div>
 

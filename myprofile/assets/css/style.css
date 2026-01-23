@@ -1,0 +1,11 @@
+.logo {
+  width: 100px; /* Set the desired width for the logo area */
+  height: 100px; /* Set the desired height */
+  background-image: url('images/profile.jpg'); /* Link to your profile image */
+  background-size: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 50%; /* Makes it circular */
+}
+
+.logo .icon {
+  display: none; /* Hides the original diamond icon */
+}
